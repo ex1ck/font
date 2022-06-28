@@ -9,3 +9,52 @@ h1, h2, h3, h4, h5, h6 { margin:0; font-size:inherit; font-weight:inherit; }
 p { margin:0; }
 cite { font-style:normal; }
 fieldset { border-width:0; padding:0; margin:0; }
+
+
+@font-face {
+    font-family: "GreatVibes-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+      src: local("GreatVibes-Regular"),
+           url("../Fonts/GreatVibes-Regular.ttf") format("ttf"),
+           url("../Fonts/GreatVibes-Regular.woff") format("woff"),
+           url("../Fonts/GreatVibes-Regular.woff2") format("woff2"),       
+}
+ 
+
+.stepone {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-weight: normal;
+    text-indent: 10px;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+
+#steptwo {
+    font-family: 'GreatVibes-Regular', cursive; 
+    color: rgb(255, 0, 149);  
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-indent: 30px;
+    word-spacing: 30px;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Yellowtail', cursive;  
+    color: rgb(174, 0, 255);
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-indent: 20px;
+    word-spacing: 20px;
+    font-size: 40px;       
+}
+
+
+
