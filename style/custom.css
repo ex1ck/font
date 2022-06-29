@@ -20,9 +20,9 @@ fieldset { border-width:0; padding:0; margin:0; }
            url("../Fonts/GreatVibes-Regular.ttf") format("ttf"),
            url("../Fonts/GreatVibes-Regular.woff") format("woff"),
            url("../Fonts/GreatVibes-Regular.woff2") format("woff2"),       
-}
- 
 
+
+}
 .stepone {
     font-family: 'Dancing Script', cursive;
     color: blue;
@@ -33,8 +33,7 @@ fieldset { border-width:0; padding:0; margin:0; }
     word-spacing: 10px;
     font-size: 30px;
 }
-
-#steptwo {
+.steptwo {
     font-family: 'GreatVibes-Regular', cursive; 
     color: rgb(255, 0, 149);  
     font-weight: 700;
@@ -44,8 +43,7 @@ fieldset { border-width:0; padding:0; margin:0; }
     word-spacing: 30px;
     font-size: 50px;
 }
-
-p {
+.stepthree {
     font-family: 'Yellowtail', cursive;  
     color: rgb(174, 0, 255);
     font-weight: 500;
@@ -55,6 +53,5 @@ p {
     word-spacing: 20px;
     font-size: 40px;       
 }
-
 
 
